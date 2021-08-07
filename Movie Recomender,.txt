@@ -38,6 +38,7 @@ moviemat.head()
 
 ratings.sort_values('num of ratings', ascending = False).head(10)
 
+#taking input from the user
 val = input("Name of the movie= ")
 
 # analysing correlation with similar movies
